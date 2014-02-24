@@ -34,11 +34,11 @@ history | awk '{tt[$2]++} END{for(i in tt){printf("%-20s %s\n",i, tt[i])}}' | so
 
 # The following is the content of netstat.txt
 # Proto Recv-Q Send-Q Local Address               Foreign Address             State      
-# tcp        0      0 pubt1v.ops.corp.qihoo.n:ssh 10.18.24.113:64211          LISTEN
-# tcp      204      0 pubt1v.ops.corp.qihoo:58000 hn.kd.ny.adsl:wsmans        ESTABLISHED 
-# tcp        0     52 pubt1v.ops.corp.qihoo.n:ssh 10.18.24.118:56610          ESTABLISHED 
-# tcp        0      0 pubt1v.ops.corp.qihoo.n:ssh 10.18.24.113:61619          ESTABLISHED 
-# tcp        0      0 pubt1v.ops.corp.qihoo.n:ssh 10.18.24.113:64181          ESTABLISHED 
+# tcp        0      0 xxxxxxxxxxxxxxxxxxxxxxxxxxx ipxxxxx:portxxxxxxx         LISTEN
+# tcp      204      0 xxxxxxxxxxxxxxxxxxxxxxxxxxx ipxxxxx:portxxxxxxx         ESTABLISHED 
+# tcp        0     52 xxxxxxxxxxxxxxxxxxxxxxxxxxx ipxxxxx:portxxxxxxx         ESTABLISHED 
+# tcp        0      0 xxxxxxxxxxxxxxxxxxxxxxxxxxx ipxxxxx:portxxxxxxx         ESTABLISHED 
+# tcp        0      0 xxxxxxxxxxxxxxxxxxxxxxxxxxx ipxxxxx:portxxxxxxx         ESTABLISHED 
 
 # cat score.txt
 # Marry   2143 78 84 77

@@ -7,7 +7,7 @@ IFACE=eth0
 IP_ADDR=192.168.0.5
 SUBNET_MASK=255.255.255.0
 GW=192.168.0.1
-HW_ADDR='AA:00:00:C5:D4:47' # optional
+HW_ADDR='xx:xx:xx:xx' # optional
 
 ################################
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-host="61.135.169"
+host="xxx.xx.xx"
 for host in $host.{1..255}
 do
 {
