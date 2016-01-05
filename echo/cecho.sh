@@ -1,4 +1,7 @@
 #!/bin/sh
+# \033 can be replaced by \e and \x1b
+# \033 八进制
+# \x1b 16进制
 
 
 
@@ -105,3 +108,4 @@ cecho red_hello red
 cecho blue blue 
 cecho yellow yellow
 cecho undefine_color_is_red undefine 
+echo "ERRhello\nWARNdfajo\n" | sed -e 's/.*WARN.*/\x1b[0;36m&\x1b[0m/i' -e 's/.*ERR.*/\x1b[93;41m&\x1b[0m/i'
