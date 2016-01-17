@@ -23,3 +23,5 @@ hotfix test21----op
 release 2.2 --op1
 release 2.2 --op2
 release 2.2 --op3
+feature2.2 --op1
+feature2.2 --op2
